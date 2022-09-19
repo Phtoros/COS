@@ -1,0 +1,7 @@
+-----------------------------  Lab_11.pjt - Debug  -----------------------------
+"c:\ti\c5400\cgtools\bin\cl500" -g -q -fr"C:/ti/myprojects/Lab_11/Debug" -d"_DEBUG" -@"../../../ti/myprojects/Lab_11/Debug.lkf" "example2.asm"
+
+"c:\ti\c5400\cgtools\bin\cl500" -@"Debug.lkf"
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

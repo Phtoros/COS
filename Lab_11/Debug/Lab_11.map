@@ -1,0 +1,77 @@
+******************************************************************************
+         TMS320C54x COFF Linker PC Version 3.83                
+******************************************************************************
+>> Linked Mon Sep 19 17:01:43 2022
+
+OUTPUT FILE NAME:   <./Debug/Lab_11.out>
+ENTRY POINT SYMBOL: "GEN2"  address: 00000100
+
+
+MEMORY CONFIGURATION
+
+                  name            origin    length      used    attr    fill
+         ----------------------  --------  ---------  --------  ----  --------
+PAGE  0: VECS                    00000080   00000080  00000000  RWIX
+         PROG                    00000100   00001300  0000002d  RWIX
+
+PAGE  1: DATA                    00001400   0000ebff  00000004  RW  
+
+PAGE  2: IOPORT                  00000000   00000016  00000000  RW  
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.vectors   0    00000080    00000000     UNINITIALIZED
+
+.text      0    00000100    0000002d     
+                  00000100    0000002d     example2.obj (.text)
+
+.bss       1    00000000    00000000     UNINITIALIZED
+
+.data      1    00001400    00000004     
+                  00001400    00000004     example2.obj (.data)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+00000000   .bss
+00001400   .data
+00000100   .text
+00000100   GEN2
+00000000   ___bss__
+00001400   ___data__
+00001404   ___edata__
+00000000   ___end__
+0000012d   ___etext__
+00000100   ___text__
+00000000   __lflags
+00001404   edata
+00000000   end
+0000012d   etext
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000000   ___bss__
+00000000   __lflags
+00000000   ___end__
+00000000   end
+00000000   .bss
+00000100   GEN2
+00000100   ___text__
+00000100   .text
+0000012d   ___etext__
+0000012d   etext
+00001400   .data
+00001400   ___data__
+00001404   ___edata__
+00001404   edata
+
+[14 symbols]
